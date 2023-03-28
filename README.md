@@ -1,5 +1,5 @@
 # Checkmk - Authenticated Arbitrary File Read
-This exploit abuses an authenticated arbitrary file read in Checkmk <= 2.1.0p10, Checkmk <= 2.0.0p27 because in older versions it used NagVis with an version <1.9.34. 
+This exploit abuses an authenticated arbitrary file read in Checkmk <= 2.1.0p10, Checkmk <= 2.0.0p27 because in older versions it used NagVis with a version <1.9.34. 
 
 This exploit uses the getHoverUrl action in /ajax_handler.php. This exploit can be chained with other exploits in the vulnerable versions for unauthenticated remote code execution as described in the following series of articles: https://www.sonarsource.com/blog/checkmk-rce-chain-1/
 
